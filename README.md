@@ -73,7 +73,7 @@ Demostración del fuente original: https://codepen.io/jackrugile/pen/fqHtn
 		web: vendor/bin/heroku-php-apache2 web/
 
 
-# Donde va el proyecto
+# ¿Donde va el proyecto?
 
 Todo el código debe de situarse dentro de la carpeta "web" tal y como se indica en el Procfile.
 
@@ -96,9 +96,11 @@ Y para separar esto de la lógica del código php que se usará para comunicar c
 		 ├───data
 		 │
 		 └───php
-			    cargarinventario.php
-			    index.php
-			    login.php
-			    newuser.php
-			    test.php
-			    testbbdd.php
+		        cargarinventario.php
+		        index.php
+		        login.php
+		        newuser.php
+		        test.php
+		        testbbdd.php
+
+
