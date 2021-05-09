@@ -32,8 +32,12 @@ Demostración del fuente original: https://codepen.io/jackrugile/pen/fqHtn
 
 ### Ficheros clave en Proyecto
 
-* app.json (Definir nombre aplicación, descripción, etc...)
+* .gitignore (añadir todos los ficheros y carpetas que no se deben de subir a Heroku y Git)
 
+		vendor/
+		.env
+
+* app.json (Definir nombre aplicación, descripción, etc...)
 
 		{
 		  "name": "Jumper PHP",
@@ -43,7 +47,6 @@ Demostración del fuente original: https://codepen.io/jackrugile/pen/fqHtn
 		}
 	
 * composer.json (Definir datos sobre autores, requerimientos, etc...)
-
 
 		{
 			"authors": [
@@ -60,6 +63,14 @@ Demostración del fuente original: https://codepen.io/jackrugile/pen/fqHtn
 				"heroku/heroku-buildpack-php": "*"
 			}
 		}
+		
+* composer.lock (se genera con el siguiente comando:)
 
-* Definir framework/lenguaje PHP
+		composer install
+		
+* Procfile ( debe tener el siguiente contenido:)
+
+		web: vendor/bin/heroku-php-apache2 web/
+
+
 	
