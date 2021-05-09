@@ -89,17 +89,17 @@ Y para separar esto de la lógica del código php que se usará para comunicar c
 		 │   style.css
 		 │
 		 ├───assets
-		 │       dude.png
-		 │       pixel_1.png
-		 │       star.png
+		 │      dude.png
+		 │      pixel_1.png
+		 │      star.png
 		 │
 		 ├───data
-		 │       gamesave.db
+		 │
 		 │
 		 └───php
-				 cargarinventario.php
-				 index.php
-				 login.php
-				 newuser.php
-				 test.php
-				 testbbdd.php
+				cargarinventario.php
+				index.php
+				login.php
+				newuser.php
+				test.php
+				testbbdd.php
