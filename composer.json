@@ -11,6 +11,5 @@
 	},
 	"require-dev": {
 		"heroku/heroku-buildpack-php": "*"
-	},
-	"license": "GPL-3.0-or-later"
+	}
 }
