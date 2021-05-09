@@ -77,4 +77,29 @@ Demostración del fuente original: https://codepen.io/jackrugile/pen/fqHtn
 
 Todo el código debe de situarse dentro de la carpeta "web" tal y como se indica en el Procfile.
 
-Dentro de la carpeta web, en la raiz, se
+Dentro de la carpeta web, en la raiz, se colocarán los archivos principales del juego, normalmente el game.js, index.html y style.css.
+
+Después se crearan las diferentes carpetas de assets, data, u otras necesarias.
+
+Y para separar esto de la lógica del código php que se usará para comunicar con la base de datos, este último se pondrá dentro de una carpeta php. Con lo que tendremos una estructrua similar a esta:
+
+		 web
+		 │   game.js
+		 │   index.html
+		 │   style.css
+		 │
+		 ├───assets
+		 │       dude.png
+		 │       pixel_1.png
+		 │       star.png
+		 │
+		 ├───data
+		 │       gamesave.db
+		 │
+		 └───php
+				 cargarinventario.php
+				 index.php
+				 login.php
+				 newuser.php
+				 test.php
+				 testbbdd.php
