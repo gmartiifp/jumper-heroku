@@ -1,8 +1,16 @@
 {
-  "require": {
-    "php": "^7.2.0"
-  },
-  "require-dev": {
-    "heroku/heroku-buildpack-php": "*"
-  }
+	"authors": [
+			{
+				"name": "G Marti",
+				"email": "gmarti@campus.ifp.es",
+				"role": "Developer"
+			}
+		], 
+	"require": {
+		"php": "^7.2.0"
+	},
+	"require-dev": {
+		"heroku/heroku-buildpack-php": "*"
+	},
+	"license": "GPL-3.0-or-later"
 }
