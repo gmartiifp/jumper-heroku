@@ -28,7 +28,7 @@ Demostración del fuente original: https://codepen.io/jackrugile/pen/fqHtn
 	- DBeaver https://dbeaver.io/download/
 	- VSCodium https://vscodium.com/
 	
-* Sigue la guia para crear un proyecto demo php en Heroku https://devcenter.heroku.com/articles/getting-started-with-php
+* Sigue la guia para crear un proyecto demo php en Heroku por primera vez y entender la mecánica de funcionamiento. https://devcenter.heroku.com/articles/getting-started-with-php
 
 ### Ficheros clave en Proyecto
 
@@ -73,4 +73,8 @@ Demostración del fuente original: https://codepen.io/jackrugile/pen/fqHtn
 		web: vendor/bin/heroku-php-apache2 web/
 
 
-	
+# Donde va el proyecto
+
+Todo el código debe de situarse dentro de la carpeta "web" tal y como se indica en el Procfile.
+
+Dentro de la carpeta web, en la raiz, se
