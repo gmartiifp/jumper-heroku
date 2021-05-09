@@ -95,11 +95,10 @@ Y para separar esto de la lógica del código php que se usará para comunicar c
 		 │
 		 ├───data
 		 │
-		 │
 		 └───php
-				cargarinventario.php
-				index.php
-				login.php
-				newuser.php
-				test.php
-				testbbdd.php
+			    cargarinventario.php
+			    index.php
+			    login.php
+			    newuser.php
+			    test.php
+			    testbbdd.php
