@@ -17,14 +17,15 @@ Demostración del fuente original: https://codepen.io/jackrugile/pen/fqHtn
   * Se guarda el contador en una base de datos
   
 
-### Claves para funcionar en Heroku y desarrollar en local
-	* Instalar en local:
-		- Git https://git-scm.com/downloads
-		- GitHub Desktop (para los comodones) https://desktop.github.com/
-		- php https://www.php.net/downloads.php (o xampp https://www.apachefriends.org/es/download.html en su defecto)
-		- Composer https://getcomposer.org/download/
-		- Heroku Cli https://devcenter.heroku.com/articles/heroku-cli#download-and-install
-		- DBeaver https://dbeaver.io/download/
-		
-	* Definir framework/lenguaje PHP
+### Que necesitas para usar Heroku y desarrollar en local
+
+* Instalar en local:
+	- Git https://git-scm.com/downloads
+	- GitHub Desktop (para los comodones) https://desktop.github.com/
+	- php https://www.php.net/downloads.php (o xampp https://www.apachefriends.org/es/download.html en su defecto)
+	- Composer https://getcomposer.org/download/
+	- Heroku Cli https://devcenter.heroku.com/articles/heroku-cli#download-and-install
+	- DBeaver https://dbeaver.io/download/
+	
+* Definir framework/lenguaje PHP
 	
