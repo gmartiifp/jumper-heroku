@@ -26,6 +26,36 @@ Demostración del fuente original: https://codepen.io/jackrugile/pen/fqHtn
 	- Composer https://getcomposer.org/download/
 	- Heroku Cli https://devcenter.heroku.com/articles/heroku-cli#download-and-install
 	- DBeaver https://dbeaver.io/download/
+	- VSCodium https://vscodium.com/
 	
+* Sigue la guia para crear un proyecto demo php en Heroku https://devcenter.heroku.com/articles/getting-started-with-php
+
+### Ficheros clave en Proyecto
+
+* app.json (Definir nombre aplicación, descripción, etc...)
+	{
+	  "name": "Jumper PHP",
+	  "description": "Demo Jumper Game",
+	  "repository": "https://github.com/gmartiifp/jumper-heroku",
+	  "addons": []
+	}
+	
+* composer.json (Definir datos sobre autores, requerimientos, etc...)
+	{
+		"authors": [
+				{
+					"name": "G Marti",
+					"email": "gmarti@campus.ifp.es",
+					"role": "Developer"
+				}
+			], 
+		"require": {
+			"php": ">=7.2.0"
+		},
+		"require-dev": {
+			"heroku/heroku-buildpack-php": "*"
+		}
+	}
+
 * Definir framework/lenguaje PHP
 	
