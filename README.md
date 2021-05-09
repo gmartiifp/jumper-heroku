@@ -33,6 +33,7 @@ Demostración del fuente original: https://codepen.io/jackrugile/pen/fqHtn
 ### Ficheros clave en Proyecto
 
 * app.json (Definir nombre aplicación, descripción, etc...)
+
 	{
 	  "name": "Jumper PHP",
 	  "description": "Demo Jumper Game",
@@ -41,6 +42,7 @@ Demostración del fuente original: https://codepen.io/jackrugile/pen/fqHtn
 	}
 	
 * composer.json (Definir datos sobre autores, requerimientos, etc...)
+
 	{
 		"authors": [
 				{
