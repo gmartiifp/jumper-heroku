@@ -24,7 +24,7 @@
   //exit;
   
   try {
-      $mbd = new PDO('mysql:host=$servername;dbname=$dbdname', $username, $password);
+      $mbd = new PDO('postgres:host=$servername;dbname=$dbdname', $username, $password);
       /*
       foreach($mbd->query('SELECT * from users') as $fila) {
           print_r($fila);
