@@ -11,20 +11,13 @@
   $username = "b7FkF4V4fU";
   $password = "gijTBONOIC";
 
-/* Acceso ala BD de Heroku con los datos de conexió directos */
-  $servername = "ec2-54-243-92-68.compute-1.amazonaws.com";
-  $dbdname = "da02sqomoosej2";
-  $username = "sayhrirscybsnj";
-  $password = "1b68e75943c9909f52503d3da128d861dbfac52bccfd69efce37be92e6f631b7";
-
-
   echo "Voy a conectar con el servidor ".$servername." <br>";
 
   //phpinfo();
   //exit;
   
   try {
-      $mbd = new PDO('postgres:host=$servername;dbname=$dbdname', $username, $password);
+      $mbd = new PDO('mysql:host=$servername;dbname=$dbdname', $username, $password);
       /*
       foreach($mbd->query('SELECT * from users') as $fila) {
           print_r($fila);
