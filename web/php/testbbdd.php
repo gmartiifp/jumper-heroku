@@ -11,6 +11,8 @@
   $username = "b7FkF4V4fU";
   $password = "gijTBONOIC";
 
+  echo "Voy a conectar con el servidor ".$servername." <br>";
+
   //phpinfo();
   //exit;
   
