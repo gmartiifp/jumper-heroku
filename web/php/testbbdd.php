@@ -6,11 +6,18 @@
   $password = "K7C9EmrCjn";
 
 /* Nueva base de datos de prueba en remotemysql.com */
-  $servername = "remotemysql.com ";
+  $servername = "remotemysql.com";
   $dbdname = "b7FkF4V4fU";
   $username = "b7FkF4V4fU";
   $password = "gijTBONOIC";
 
+/* Acceso ala BD de Heroku con los datos de conexió directos */
+/*  $servername = "ec2-54-243-92-68.compute-1.amazonaws.com";
+  $dbdname = "b7FkF4V4fU";
+  $username = "b7FkF4V4fU";
+  $password = "gijTBONOIC";
+
+*/
   echo "Voy a conectar con el servidor ".$servername." <br>";
 
   //phpinfo();
