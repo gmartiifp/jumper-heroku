@@ -1,8 +1,15 @@
 <?php
+/* Servidor antiguo Freemysqlhosting.net, cuenta inactiva */
   $servername = "sql11.freemysqlhosting.net";
   $dbdname = "sql11409601";
   $username = "sql11409601";
   $password = "K7C9EmrCjn";
+
+/* Nueva base de datos de prueba en remotemysql.com */
+  $servername = "remotemysql.com ";
+  $dbdname = "b7FkF4V4fU";
+  $username = "b7FkF4V4fU";
+  $password = "gijTBONOIC";
 
   //phpinfo();
   //exit;
